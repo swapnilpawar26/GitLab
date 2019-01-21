@@ -1,0 +1,13 @@
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class chromebrowser {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		System.setProperty("chromedriver.chrome.driver", "/media/swapni/New Volume/SW tools and drivers/Tools");
+		ChromeDriver driver = new ChromeDriver();
+		driver.get("http://www.google.com");
+	}
+
+}
